@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Piratemark" package="com.iainlobb.piratemark" version="1.0.0" company="" />
+	<app path="bin" file="Piratemark" main="Piratemark" />
+	
+	<window width="960" height="720" unless="mobile" />
+	<window fps="60" />
+	
+	<source path="src" />
+	
+	<haxelib name="flambe" if="flambe" />
+	<haxelib name="nme" unless="flambe" />
+	
+	<assets path="assets" if="flambe" />
+	<assets path="assets" exclude="*.fnt" unless="flambe" />
+	
+	<haxeflag name="--dead-code-elimination" if="html5" />
+	
+</project>
