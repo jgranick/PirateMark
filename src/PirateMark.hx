@@ -20,7 +20,7 @@ import nme.Lib;
 #end
 
 
-class Piratemark #if !flambe extends Sprite #end {
+class PirateMark #if !flambe extends Sprite #end {
 	
 	
     public function new () {
