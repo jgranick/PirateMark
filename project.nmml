@@ -9,11 +9,11 @@
 	
 	<source path="src" />
 	
-	<haxelib name="flambe" if="flambe" />
-	<haxelib name="nme" unless="flambe" />
+	<haxelib name="flambe" if="use_flambe" />
+	<haxelib name="nme" />
 	
-	<assets path="assets" if="flambe" />
-	<assets path="assets" exclude="*.fnt" unless="flambe" />
+	<assets path="assets" if="use_flambe" />
+	<assets path="assets" exclude="*.fnt" unless="use_flambe" />
 	
 	<haxeflag name="--dead-code-elimination" if="html5" />
 	

@@ -23,9 +23,9 @@ class Pirate extends Sprite {
 		y = Math.random () * Lib.current.stage.stageHeight;
 		addChild (bitmap);
 		
-		_vr = (Math.random()*0.2 - 0.1) * (180 / Math.PI);
-        _vx = Math.random()*70 - 35;
-        _vy = Math.random()*70 - 35;
+		_vr = (Math.random() * 0.2 - 0.1) * (180 / Math.PI);
+        _vx = Math.random() * 70 - 35;
+        _vy = Math.random() * 70 - 35;
 		
 	}
 	
@@ -35,18 +35,18 @@ class Pirate extends Sprite {
         var w = stage.stageWidth;
         var h = stage.stageHeight;
 
-        var perSecond = 0.05*dt;
-        x += _vx*perSecond;
-        y += _vy*perSecond;
-        rotation += _vr*perSecond;
+        var perSecond = 0.05 * dt;
+        x += _vx * perSecond;
+        y += _vy * perSecond;
+        rotation += _vr * perSecond;
 
-        _vy += 0.75*perSecond;
+        _vy += 0.75 * perSecond;
 
         if (y > h) {
             _vy *= -0.8;
             y = h;
             if (Math.random() < 0.5) {
-                _vy -= Math.random()*12;
+                _vy -= Math.random() * 12;
             }
         }
 

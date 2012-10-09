@@ -82,9 +82,484 @@
     <Compile Include="src\Piratemark.hx" />
     <Compile Include="README.md" />
     <Compile Include="src\Pirate.hx" />
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\Component.hx">
+      <Link>flambe\Component.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\Disposer.hx">
+      <Link>flambe\Disposer.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\Entity.hx">
+      <Link>flambe\Entity.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\Log.hx">
+      <Link>flambe\Log.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\System.hx">
+      <Link>flambe\System.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\Visitor.hx">
+      <Link>flambe\Visitor.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\animation\AnimatedFloat.hx">
+      <Link>flambe\animation\AnimatedFloat.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\animation\Behavior.hx">
+      <Link>flambe\animation\Behavior.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\animation\Binding.hx">
+      <Link>flambe\animation\Binding.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\animation\Ease.hx">
+      <Link>flambe\animation\Ease.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\animation\Jitter.hx">
+      <Link>flambe\animation\Jitter.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\animation\Tween.hx">
+      <Link>flambe\animation\Tween.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\asset\AssetEntry.hx">
+      <Link>flambe\asset\AssetEntry.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\asset\AssetPack.hx">
+      <Link>flambe\asset\AssetPack.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\asset\Manifest.hx">
+      <Link>flambe\asset\Manifest.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\debug\FpsDisplay.hx">
+      <Link>flambe\debug\FpsDisplay.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\debug\LogVisitor.hx">
+      <Link>flambe\debug\LogVisitor.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\BlendMode.hx">
+      <Link>flambe\display\BlendMode.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\DrawingContext.hx">
+      <Link>flambe\display\DrawingContext.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\FillSprite.hx">
+      <Link>flambe\display\FillSprite.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\Font.hx">
+      <Link>flambe\display\Font.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\ImageSprite.hx">
+      <Link>flambe\display\ImageSprite.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\Orientation.hx">
+      <Link>flambe\display\Orientation.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\PatternSprite.hx">
+      <Link>flambe\display\PatternSprite.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\Sprite.hx">
+      <Link>flambe\display\Sprite.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\Stage.hx">
+      <Link>flambe\display\Stage.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\TextSprite.hx">
+      <Link>flambe\display\TextSprite.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\display\Texture.hx">
+      <Link>flambe\display\Texture.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\Key.hx">
+      <Link>flambe\input\Key.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\Keyboard.hx">
+      <Link>flambe\input\Keyboard.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\KeyboardEvent.hx">
+      <Link>flambe\input\KeyboardEvent.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\Mouse.hx">
+      <Link>flambe\input\Mouse.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\MouseButton.hx">
+      <Link>flambe\input\MouseButton.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\MouseCursor.hx">
+      <Link>flambe\input\MouseCursor.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\MouseEvent.hx">
+      <Link>flambe\input\MouseEvent.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\Pointer.hx">
+      <Link>flambe\input\Pointer.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\PointerEvent.hx">
+      <Link>flambe\input\PointerEvent.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\Touch.hx">
+      <Link>flambe\input\Touch.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\input\TouchPoint.hx">
+      <Link>flambe\input\TouchPoint.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\math\FMath.hx">
+      <Link>flambe\math\FMath.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\math\Matrix.hx">
+      <Link>flambe\math\Matrix.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\math\Point.hx">
+      <Link>flambe\math\Point.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\BasicAssetPackLoader.hx">
+      <Link>flambe\platform\BasicAssetPackLoader.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\BasicKeyboard.hx">
+      <Link>flambe\platform\BasicKeyboard.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\BasicMouse.hx">
+      <Link>flambe\platform\BasicMouse.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\BasicPointer.hx">
+      <Link>flambe\platform\BasicPointer.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\BasicTouch.hx">
+      <Link>flambe\platform\BasicTouch.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\ComponentBuilder.hx">
+      <Link>flambe\platform\ComponentBuilder.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\DummyMouse.hx">
+      <Link>flambe\platform\DummyMouse.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\DummySound.hx">
+      <Link>flambe\platform\DummySound.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\DummyStorage.hx">
+      <Link>flambe\platform\DummyStorage.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\DummyTouch.hx">
+      <Link>flambe\platform\DummyTouch.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\DummyWeb.hx">
+      <Link>flambe\platform\DummyWeb.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\EventGroup.hx">
+      <Link>flambe\platform\EventGroup.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\KeyCodes.hx">
+      <Link>flambe\platform\KeyCodes.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\MainLoop.hx">
+      <Link>flambe\platform\MainLoop.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\ManifestBuilder.hx">
+      <Link>flambe\platform\ManifestBuilder.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\MouseCodes.hx">
+      <Link>flambe\platform\MouseCodes.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\Platform.hx">
+      <Link>flambe\platform\Platform.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\Renderer.hx">
+      <Link>flambe\platform\Renderer.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\Tickable.hx">
+      <Link>flambe\platform\Tickable.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\AirTouch.hx">
+      <Link>flambe\platform\flash\AirTouch.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\AirWeb.hx">
+      <Link>flambe\platform\flash\AirWeb.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\BitmapDrawingContext.hx">
+      <Link>flambe\platform\flash\BitmapDrawingContext.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\BitmapRenderer.hx">
+      <Link>flambe\platform\flash\BitmapRenderer.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\FlashAssetPackLoader.hx">
+      <Link>flambe\platform\flash\FlashAssetPackLoader.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\FlashLogHandler.hx">
+      <Link>flambe\platform\flash\FlashLogHandler.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\FlashMouse.hx">
+      <Link>flambe\platform\flash\FlashMouse.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\FlashPlatform.hx">
+      <Link>flambe\platform\flash\FlashPlatform.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\FlashSound.hx">
+      <Link>flambe\platform\flash\FlashSound.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\FlashStage.hx">
+      <Link>flambe\platform\flash\FlashStage.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\FlashStorage.hx">
+      <Link>flambe\platform\flash\FlashStorage.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\FlashTexture.hx">
+      <Link>flambe\platform\flash\FlashTexture.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\FlashUtil.hx">
+      <Link>flambe\platform\flash\FlashUtil.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\FlashWeb.hx">
+      <Link>flambe\platform\flash\FlashWeb.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\Stage3DDrawingContext.hx">
+      <Link>flambe\platform\flash\Stage3DDrawingContext.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\flash\Stage3DRenderer.hx">
+      <Link>flambe\platform\flash\Stage3DRenderer.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\CanvasDrawingContext.hx">
+      <Link>flambe\platform\html\CanvasDrawingContext.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\CanvasRenderer.hx">
+      <Link>flambe\platform\html\CanvasRenderer.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\HtmlAssetPackLoader.hx">
+      <Link>flambe\platform\html\HtmlAssetPackLoader.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\HtmlLogHandler.hx">
+      <Link>flambe\platform\html\HtmlLogHandler.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\HtmlMouse.hx">
+      <Link>flambe\platform\html\HtmlMouse.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\HtmlPlatform.hx">
+      <Link>flambe\platform\html\HtmlPlatform.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\HtmlSound.hx">
+      <Link>flambe\platform\html\HtmlSound.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\HtmlStage.hx">
+      <Link>flambe\platform\html\HtmlStage.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\HtmlStorage.hx">
+      <Link>flambe\platform\html\HtmlStorage.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\HtmlTexture.hx">
+      <Link>flambe\platform\html\HtmlTexture.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\HtmlUtil.hx">
+      <Link>flambe\platform\html\HtmlUtil.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\HtmlWeb.hx">
+      <Link>flambe\platform\html\HtmlWeb.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\html\WebAudioSound.hx">
+      <Link>flambe\platform\html\WebAudioSound.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\.DS_Store">
+      <Link>flambe\platform\nme\.DS_Store</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\BitmapDrawingContext.hx">
+      <Link>flambe\platform\nme\BitmapDrawingContext.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\BitmapRenderer.hx">
+      <Link>flambe\platform\nme\BitmapRenderer.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMEAssetPackLoader.hx">
+      <Link>flambe\platform\nme\NMEAssetPackLoader.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMELogHandler.hx">
+      <Link>flambe\platform\nme\NMELogHandler.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMEMouse.hx">
+      <Link>flambe\platform\nme\NMEMouse.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMEPlatform.hx">
+      <Link>flambe\platform\nme\NMEPlatform.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMESound.hx">
+      <Link>flambe\platform\nme\NMESound.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMEStage.hx">
+      <Link>flambe\platform\nme\NMEStage.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMEStorage.hx">
+      <Link>flambe\platform\nme\NMEStorage.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMETexture.hx">
+      <Link>flambe\platform\nme\NMETexture.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMETouch.hx">
+      <Link>flambe\platform\nme\NMETouch.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMEUtil.hx">
+      <Link>flambe\platform\nme\NMEUtil.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\nme\NMEWeb.hx">
+      <Link>flambe\platform\nme\NMEWeb.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\shader\DrawImage.hx">
+      <Link>flambe\platform\shader\DrawImage.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\shader\DrawPattern.hx">
+      <Link>flambe\platform\shader\DrawPattern.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\platform\shader\FillRect.hx">
+      <Link>flambe\platform\shader\FillRect.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\scene\Director.hx">
+      <Link>flambe\scene\Director.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\scene\Scene.hx">
+      <Link>flambe\scene\Scene.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\Action.hx">
+      <Link>flambe\script\Action.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\AnimateBy.hx">
+      <Link>flambe\script\AnimateBy.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\AnimateTo.hx">
+      <Link>flambe\script\AnimateTo.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\CallFunction.hx">
+      <Link>flambe\script\CallFunction.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\Delay.hx">
+      <Link>flambe\script\Delay.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\MoveBy.hx">
+      <Link>flambe\script\MoveBy.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\MoveTo.hx">
+      <Link>flambe\script\MoveTo.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\Parallel.hx">
+      <Link>flambe\script\Parallel.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\Repeat.hx">
+      <Link>flambe\script\Repeat.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\Script.hx">
+      <Link>flambe\script\Script.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\Sequence.hx">
+      <Link>flambe\script\Sequence.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\script\Shake.hx">
+      <Link>flambe\script\Shake.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\server\Node.hx">
+      <Link>flambe\server\Node.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\server\NodeRelay.hx">
+      <Link>flambe\server\NodeRelay.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\server\NodeRemoting.hx">
+      <Link>flambe\server\NodeRemoting.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\server\SystemLogHander.hx">
+      <Link>flambe\server\SystemLogHander.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\sound\Mixer.hx">
+      <Link>flambe\sound\Mixer.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\sound\Playback.hx">
+      <Link>flambe\sound\Playback.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\sound\Sound.hx">
+      <Link>flambe\sound\Sound.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\storage\Storage.hx">
+      <Link>flambe\storage\Storage.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\swf\BitmapSprite.hx">
+      <Link>flambe\swf\BitmapSprite.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\swf\BitmapSymbol.hx">
+      <Link>flambe\swf\BitmapSymbol.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\swf\Format.hx">
+      <Link>flambe\swf\Format.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\swf\Library.hx">
+      <Link>flambe\swf\Library.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\swf\MovieSprite.hx">
+      <Link>flambe\swf\MovieSprite.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\swf\MovieSymbol.hx">
+      <Link>flambe\swf\MovieSymbol.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\swf\Symbol.hx">
+      <Link>flambe\swf\Symbol.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Arrays.hx">
+      <Link>flambe\util\Arrays.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Assert.hx">
+      <Link>flambe\util\Assert.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Build.hx">
+      <Link>flambe\util\Build.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Config.hx">
+      <Link>flambe\util\Config.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Disposable.hx">
+      <Link>flambe\util\Disposable.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Hashes.hx">
+      <Link>flambe\util\Hashes.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Iterables.hx">
+      <Link>flambe\util\Iterables.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Logger.hx">
+      <Link>flambe\util\Logger.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\MessageBundle.hx">
+      <Link>flambe\util\MessageBundle.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\MultiPromise.hx">
+      <Link>flambe\util\MultiPromise.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Promise.hx">
+      <Link>flambe\util\Promise.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Random.hx">
+      <Link>flambe\util\Random.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Signal0.hx">
+      <Link>flambe\util\Signal0.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Signal1.hx">
+      <Link>flambe\util\Signal1.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Signal2.hx">
+      <Link>flambe\util\Signal2.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\SignalConnection.hx">
+      <Link>flambe\util\SignalConnection.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\SignalImpl.hx">
+      <Link>flambe\util\SignalImpl.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Strings.hx">
+      <Link>flambe\util\Strings.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Value.hx">
+      <Link>flambe\util\Value.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\util\Xmls.hx">
+      <Link>flambe\util\Xmls.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\web\Web.hx">
+      <Link>flambe\web\Web.hx</Link>
+    </Compile>
+    <Compile Include="..\..\..\Development\Haxe\flambe\src\flambe\web\WebView.hx">
+      <Link>flambe\web\WebView.hx</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\" />
     <Folder Include="src\" />
+    <Folder Include="flambe\" />
   </ItemGroup>
 </Project>

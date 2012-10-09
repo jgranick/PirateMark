@@ -10,6 +10,8 @@ import flambe.display.TextSprite;
 import flambe.Entity;
 import flambe.System;
 #else
+import nme.display.Bitmap;
+import nme.display.BitmapData;
 import nme.display.FPS;
 import nme.display.Sprite;
 import nme.events.Event;
@@ -64,20 +66,25 @@ class Piratemark #if !flambe extends Sprite #end {
 		
     	super ();
     	
-    	var background = new Sprite ();
-    	background.graphics.beginFill (0xFFFFFF);
-    	background.graphics.drawRect (0, 0, Lib.current.stage.stageWidth, Lib.current.stage.stageHeight);
-    	addChild (background);
+    	#if html5
+    	var canvas = new BitmapData (Lib.current.stage.stageWidth, Lib.current.stage.stageHeight);
+    	addChild (new Bitmap (canvas));
+    	#end
     	
     	var pirates = new Array <Pirate> ();
+    	var ship = new Sprite ();
     	
     	for (i in 0...10) {
     		
     		var pirate = new Pirate ();
     		pirates.push (pirate);
-    		addChild (pirate);
+    		ship.addChild (pirate);
     		
     	}
+    	
+    	#if !html5
+    	addChild (ship);
+    	#end
     	
     	addChild (new FPS ());
     	
@@ -93,6 +100,11 @@ class Piratemark #if !flambe extends Sprite #end {
 	    		pirate.update (deltaTime);
 	    		
 	    	}
+	    	
+	    	#if html5
+	    	canvas.fillRect(canvas.rect, 0x000000);
+	    	canvas.draw (ship);
+	    	#end
     		
     	});
     	
