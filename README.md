@@ -5,15 +5,18 @@ This is a Haxe version of Iain Lobb's "Piratemark" benchmark, designed to work w
 
 It is designed to benchmark the use of large graphic objects with rotation, and is suitable for HTML5 performance tests.
 
-You can build using NME like this:
+Testing
+-------
+
+You can compile the project using NME by opening the directory in the command-prompt or terminal and running:
 
     nme test html5
 
-You can build for Flambe like this:
+Similarly, you can build for Flambe by adding the "use_flambe" define:
 
-    nme test html5 -Duse_flambe 
+    nme test html5 -Duse_flambe
 
-The benchmark is also online, here:
+You can also find the benchmark online:
 
-http://www.joshuagranick.com/examples/piratemark/html5
-http://www.joshuagranick.com/examples/piratemark/flambe
+ * http://www.joshuagranick.com/examples/piratemark/html5
+ * http://www.joshuagranick.com/examples/piratemark/flambe
