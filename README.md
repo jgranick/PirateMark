@@ -12,3 +12,8 @@ You can build using NME like this:
 You can build for Flambe like this:
 
     nme test html5 -Duse_flambe 
+
+The benchmark is also online, here:
+
+http://www.joshuagranick.com/examples/piratemark/html5
+http://www.joshuagranick.com/examples/piratemark/flambe
