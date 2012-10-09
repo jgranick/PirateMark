@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{319CB2C6-23BD-43E1-85B5-2AAFA3577042}") = "Piratemark", "Piratemark.nmeproj", "{5B226737-B02A-44DF-908A-64CC112FB388}"
+Project("{319CB2C6-23BD-43E1-85B5-2AAFA3577042}") = "PirateMark", "PirateMark.nmeproj", "{5B226737-B02A-44DF-908A-64CC112FB388}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

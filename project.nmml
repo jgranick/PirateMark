@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	
-	<meta title="Piratemark" package="com.iainlobb.piratemark" version="1.0.0" company="" />
-	<app path="bin" file="Piratemark" main="Piratemark" />
+	<meta title="PirateMark" package="com.iainlobb.piratemark" version="1.0.0" company="" />
+	<app path="bin" file="PirateMark" main="PirateMark" />
 	
 	<window width="960" height="720" unless="mobile" />
 	<window fps="60" />
